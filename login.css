@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(43, 48, 38);
+    color: rgb(45, 194, 82);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.title{
+    margin: 2%;
+}
