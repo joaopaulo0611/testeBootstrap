@@ -17,13 +17,13 @@
   <body>
     <!-- título -->
     <div class="page-header text-center">
-      <h1 class="title">
+      <h1 class="title m-auto pt-5">
         Bem vindo ao Sistema Bibliotecário!
       </h1>
     </div>
     <div class="col w-25 m-auto">
       <form>
-        <div class="form-group">
+        <div class="form-group pt-5">
           <label for="exampleInputEmail1">Matrícula</label>
           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Matrícula">
         </div>
@@ -38,7 +38,9 @@
           <input type="radio" name="radio" class="form-check-input" id="biblio">
           <label class="form-check-label" for="exampleCheck1">Bibliotecário</label>
         </div>
-        <button type="button" class="btn btn-primary" onclick="redirecionar()">Enviar</button>
+        <div class="entrar">
+          <button type="button" class="btn btn-primary" onclick="redirecionar()">Entrar</button>
+        </div>
       </form>
     </div>
     <script src="login.js"></script>

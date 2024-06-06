@@ -10,6 +10,9 @@ function redirecionar() {
         alert("Por favor, selecione uma opção.")
     }
 }
+function btnSair(){
+    window.location.href = 'index.html'
+}
 
 
 
